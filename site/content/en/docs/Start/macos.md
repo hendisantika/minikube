@@ -20,6 +20,13 @@ If the [Brew Package Manager](https://brew.sh/) is installed, use it to download
 brew install minikube
 ```
 
+If `which minikube` fails after installing with brew, you may need to uninstall the cask and reinstall by running:
+
+```
+brew cask uninstall minikube
+brew install minikube
+```
+
 {{% /tab %}}
 {{% tab "Direct" %}}
 
